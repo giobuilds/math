@@ -19,5 +19,9 @@
 #include "DirectXMath.h"
 #include "DirectXPackedVector.h"
 
+#if defined(__GLIBCXX__)
+#include "SalLegacyUndef.h"
+#endif
+
 using namespace DirectX;
 using namespace DirectX::PackedVector;

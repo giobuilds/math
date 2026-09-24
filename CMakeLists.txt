@@ -43,6 +43,7 @@ set(PUBLIC_HEADER_FILES
     include/Ray.h
     include/Ray_inline.h
     include/Requirements.h
+    include/SalLegacyUndef.h
     include/Sphere.h
     include/Sphere_inline.h
     include/Vector2.h
